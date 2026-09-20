@@ -1,79 +1,77 @@
 <div align="center">
 
-<!-- 53-Week Animated Contribution Terminal Heatmap (880px) -->
+<!-- Matrix rain texture strip -->
+<img src="./assets/matrix-strip.svg" alt="Matrix strip" width="880" />
+
+<br/>
+
+<!-- Terminal boot sequence -->
+<img src="./assets/boot-sequence.svg" alt="Boot sequence" width="880" />
+
+<br/>
+
+<!-- 53-week animated contribution heatmap -->
 <img src="./contrib-heatmap.svg" alt="GitHub Contributions Heatmap" width="880" />
 
 <br/>
 
-<!-- Terminal Suite: ASCII Portrait (380px) + Info Card (500px) = 880px perfectly aligned -->
-<table>
-  <tr>
-    <td width="380" align="center" valign="top">
-      <img src="./assets/avi-ascii.svg" alt="ASCII Portrait" width="380" />
-    </td>
-    <td width="500" align="center" valign="top">
-      <img src="./assets/info-card.svg" alt="Profile Info Card" width="500" />
-    </td>
-  </tr>
-</table>
+<!-- Neofetch-style info card -->
+<img src="./assets/info-card.svg" alt="Profile Info Card" width="880" />
 
 </div>
 
 <br/>
 
-### 01 / ABOUT ME
-I build and ship production-ready backend systems, secure enterprise infrastructures, and agentic AI workflows. My work spans deep LLM/RAG integration, security documentation, and rapid product development. By bridging engineering rigor, cybersecurity awareness, and clear technical prose, I turn complex problems into scalable, resilient solutions.
+### 01 / ABOUT
+
+Final-year Information Science and Engineering student at RNSIT Bengaluru (CGPA 8.22, graduating 2027). Backend engineer building production-grade systems with Node.js, FastAPI, and vector-search RAG pipelines. Focused on becoming an AI/LLM engineer: shipping real systems, not just studying concepts.
 
 <br/>
 
-### 02 / EXPERIENCE &amp; ROLES
+### 02 / EXPERIENCE
 
-* **Backend Developer** @ **One Tappe**
-  * Building performant APIs with Node.js and FastAPI.
-  * Architecting vector-search RAG retrieval pipelines and LLM-powered backend features.
-* **AI Security &amp; GTM** @ [Kahana](https://kahana.co)
-  * Defining security documentation strategies for the Oasis enterprise browser.
-  * Represented engineering priorities in technical partner meetings with Datadog and Pensar.
-* **Technical Cybersecurity Blogger** @ [Axeploit](https://axeploit.com)
-  * Publishing research papers and deep-dives on API vulnerabilities, penetration testing, and defensive posture.
-* **Information Science &amp; Engineering** @ **RNSIT Bengaluru**
-  * 4th Year Undergraduate (CGPA 8.22, Class of 2027).
+**Backend Developer** at One Tappe
+- Building performant REST APIs with Node.js and FastAPI.
+- Architecting vector-search RAG pipelines and LLM-powered backend features using FAISS, Groq, and Gemini.
 
-<br/>
+**AI Security and GTM** at [Kahana](https://kahana.co)
+- Security documentation for the Oasis enterprise browser.
+- Technical partner meetings with Datadog and Pensar.
 
-### 03 / HIGHLIGHTS &amp; AWARDS
+**Technical Cybersecurity Blogger** at [Axeploit](https://axeploit.com)
+- Deep-dive research on API vulnerabilities, penetration testing, and defensive security posture.
 
-* 🏆 **Smart India Hackathon (SIH) 2026 Grand Finalist** — Top 50 of 3,500+ teams nationwide (`SENTRA`, AI-powered real-time UPI fraud prevention).
-* 🥈 **HACKHAZARDS '26 Top 100 &amp; Luminix '26 Runner-Up** — Built `UnifyTalk`, an AI-driven multimodal accessibility platform.
-* 🌟 **GSSoC Project Admin &amp; Campus Ambassador** — Leading open-source governance and development for `NutriMind-AI` and `RepoScout`.
+**GSSoC 2026**
+- Project Admin for NutriMind-AI and RepoScout.
+- Campus Ambassador at RNSIT.
 
 <br/>
 
-### 04 / TECH STACK
+### 03 / HIGHLIGHTS
 
-**Languages &amp; Core**  
-`TypeScript` · `JavaScript` · `Python` · `HTML5 / CSS3` · `SQL` · `LaTeX`
+- **SIH 2026 Grand Finalist** / Top 50 of 3500+ teams nationwide. Built SENTRA, an AI real-time UPI fraud detection system.
+- **HACKHAZARDS 26 Top 100 and Luminix 26 Runner-Up.** Built UnifyTalk, an AI multimodal accessibility platform for deaf, mute, and blind users.
 
-**Frameworks &amp; Backend**  
-`React` · `Next.js` · `Node.js` · `FastAPI` · `Express` · `Flask` · `REST APIs` · `JWT / Auth`
+<br/>
 
-**AI, LLMs &amp; Vector Databases**  
-`FAISS` · `RAG Systems` · `Groq` · `Gemini` · `LangChain` · `LlamaIndex` · `ChromaDB` · `Hugging Face`
+### 04 / STACK
 
-**Databases, Cloud &amp; DevOps**  
-`PostgreSQL` · `MongoDB` · `Supabase` · `Docker` · `GCP Cloud Run` · `GitHub Actions` · `Linux`
+**Languages** / TypeScript, JavaScript, Python, SQL<br/>
+**Frontend** / React, Next.js, HTML5, Tailwind CSS<br/>
+**Backend** / Node.js, FastAPI, Express, Flask<br/>
+**AI and LLMs** / FAISS, RAG systems, Groq, Gemini, LangChain, LlamaIndex<br/>
+**Databases** / PostgreSQL, MongoDB, Supabase, ChromaDB<br/>
+**DevOps** / Docker, GCP Cloud Run, GitHub Actions, Linux<br/>
 
 <br/>
 
 ### 05 / RECOMMENDATION
 
-> *"From creating and uploading countless blog posts, to attending technical meetings with partners like Datadog and Pensar on short notice, Pallavi has consistently shown up as someone I can rely on across content, technical, and go-to-market work. She is always willing to jump in wherever needed and quickly gets up to speed, even in complex and highly technical conversations.*
+> *"From creating and uploading countless blog posts, to attending technical meetings with partners like Datadog and Pensar on short notice, Pallavi has consistently shown up as someone I can rely on across content, technical, and go-to-market work.*
 >
-> *Pallavi has played a meaningful role in analyzing our security infrastructure and offering thoughtful ideas on how to improve our documentation for the enterprise browser. She understands how to translate technical details into clear, structured documentation, and she does so in a way that serves both the product and the customer. Her ability to bridge product, security, and communication has been especially valuable.*
+> *What truly stands out is her relentless and positive attitude. No matter how last-minute the ask or how messy the problem, she shows up prepared, solutions-oriented, and eager to contribute."*
 >
-> *What truly stands out is her relentless and positive attitude. No matter how last-minute the ask or how messy the problem, she shows up prepared, solutions-oriented, and eager to contribute. That kind of consistency builds trust quickly."*
->
-> &mdash; **Adam Kershner**, CEO @ **Kahana** *(Managed Pallavi directly)*
+> Adam Kershner, CEO at Kahana (managed Pallavi directly)
 
 <br/>
 

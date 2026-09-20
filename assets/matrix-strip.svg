@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 46" width="880" height="46">
+  <defs>
+    <linearGradient id="mBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <clipPath id="mClip">
+      <rect width="880" height="46"/>
+    </clipPath>
+  </defs>
+  <style>
+    @keyframes mFall {
+      0%   { transform: translateY(0px);   opacity: var(--op, 0.25); }
+      50%  { opacity: var(--op2, 0.40); }
+      100% { transform: translateY(66px); opacity: 0; }
+    }
+    .mc {
+      font-family: "Fira Code", "SFMono-Regular", Consolas, monospace;
+      font-size: 11px;
+      fill: #39d353;
+      animation: mFall linear infinite;
+      will-change: transform, opacity;
+    }
+  </style>
+  <rect width="880" height="46" fill="url(#mBg)" rx="6"/>
+  <rect width="880" height="46" fill="none" stroke="#21262d" stroke-width="1" rx="6"/>
+  <g clip-path="url(#mClip)">
+    <text x="8.0" y="-16" class="mc" style="opacity:0.36; animation-delay:0.56s; animation-duration:2.81s;">F</text>
+    <text x="8.0" y="-3" class="mc" style="opacity:0.28; animation-delay:0.56s; animation-duration:2.81s;">1</text>
+    <text x="8.0" y="10" class="mc" style="opacity:0.20; animation-delay:0.56s; animation-duration:2.81s;">3</text>
+    <text x="8.0" y="23" class="mc" style="opacity:0.12; animation-delay:0.56s; animation-duration:2.81s;">1</text>
+    <text x="24.0" y="-25" class="mc" style="opacity:0.19; animation-delay:0.87s; animation-duration:4.02s;">D</text>
+    <text x="24.0" y="-12" class="mc" style="opacity:0.11; animation-delay:0.87s; animation-duration:4.02s;">@</text>
+    <text x="24.0" y="1" class="mc" style="opacity:0.05; animation-delay:0.87s; animation-duration:4.02s;">A</text>
+    <text x="24.0" y="14" class="mc" style="opacity:0.05; animation-delay:0.87s; animation-duration:4.02s;">1</text>
+    <text x="40.0" y="-16" class="mc" style="opacity:0.39; animation-delay:1.8s; animation-duration:3.33s;">[</text>
+    <text x="40.0" y="-3" class="mc" style="opacity:0.31; animation-delay:1.8s; animation-duration:3.33s;">%</text>
+    <text x="56.0" y="-13" class="mc" style="opacity:0.26; animation-delay:0.62s; animation-duration:5.37s;">@</text>
+    <text x="56.0" y="0" class="mc" style="opacity:0.18; animation-delay:0.62s; animation-duration:5.37s;">7</text>
+    <text x="72.0" y="-8" class="mc" style="opacity:0.37; animation-delay:3.39s; animation-duration:4.31s;">#</text>
+    <text x="72.0" y="5" class="mc" style="opacity:0.29; animation-delay:3.39s; animation-duration:4.31s;">E</text>
+    <text x="88.0" y="-25" class="mc" style="opacity:0.33; animation-delay:2.21s; animation-duration:4.99s;">?</text>
+    <text x="88.0" y="-12" class="mc" style="opacity:0.25; animation-delay:2.21s; animation-duration:4.99s;">[</text>
+    <text x="88.0" y="1" class="mc" style="opacity:0.17; animation-delay:2.21s; animation-duration:4.99s;">F</text>
+    <text x="88.0" y="14" class="mc" style="opacity:0.09; animation-delay:2.21s; animation-duration:4.99s;">#</text>
+    <text x="104.0" y="-16" class="mc" style="opacity:0.39; animation-delay:3.09s; animation-duration:5.46s;">e</text>
+    <text x="104.0" y="-3" class="mc" style="opacity:0.31; animation-delay:3.09s; animation-duration:5.46s;">C</text>
+    <text x="104.0" y="10" class="mc" style="opacity:0.23; animation-delay:3.09s; animation-duration:5.46s;">A</text>
+    <text x="120.0" y="-1" class="mc" style="opacity:0.27; animation-delay:2.54s; animation-duration:3.59s;">#</text>
+    <text x="120.0" y="12" class="mc" style="opacity:0.19; animation-delay:2.54s; animation-duration:3.59s;">3</text>
+    <text x="136.0" y="8" class="mc" style="opacity:0.24; animation-delay:2.54s; animation-duration:4.1s;">3</text>
+    <text x="136.0" y="21" class="mc" style="opacity:0.16; animation-delay:2.54s; animation-duration:4.1s;">C</text>
+    <text x="152.0" y="-16" class="mc" style="opacity:0.37; animation-delay:2.74s; animation-duration:5.03s;">#</text>
+    <text x="152.0" y="-3" class="mc" style="opacity:0.29; animation-delay:2.74s; animation-duration:5.03s;">3</text>
+    <text x="152.0" y="10" class="mc" style="opacity:0.21; animation-delay:2.74s; animation-duration:5.03s;">]</text>
+    <text x="168.0" y="-5" class="mc" style="opacity:0.41; animation-delay:1.07s; animation-duration:3.13s;">A</text>
+    <text x="168.0" y="8" class="mc" style="opacity:0.33; animation-delay:1.07s; animation-duration:3.13s;">6</text>
+    <text x="184.0" y="-1" class="mc" style="opacity:0.36; animation-delay:0.57s; animation-duration:2.92s;">6</text>
+    <text x="184.0" y="12" class="mc" style="opacity:0.28; animation-delay:0.57s; animation-duration:2.92s;">f</text>
+    <text x="184.0" y="25" class="mc" style="opacity:0.20; animation-delay:0.57s; animation-duration:2.92s;"><</text>
+    <text x="184.0" y="38" class="mc" style="opacity:0.12; animation-delay:0.57s; animation-duration:2.92s;">$</text>
+    <text x="200.0" y="-16" class="mc" style="opacity:0.30; animation-delay:3.99s; animation-duration:2.91s;">2</text>
+    <text x="200.0" y="-3" class="mc" style="opacity:0.22; animation-delay:3.99s; animation-duration:2.91s;">@</text>
+    <text x="200.0" y="10" class="mc" style="opacity:0.14; animation-delay:3.99s; animation-duration:2.91s;">$</text>
+    <text x="200.0" y="23" class="mc" style="opacity:0.06; animation-delay:3.99s; animation-duration:2.91s;">9</text>
+    <text x="216.0" y="10" class="mc" style="opacity:0.32; animation-delay:0.64s; animation-duration:4.54s;">F</text>
+    <text x="216.0" y="23" class="mc" style="opacity:0.24; animation-delay:0.64s; animation-duration:4.54s;">b</text>
+    <text x="232.0" y="-14" class="mc" style="opacity:0.18; animation-delay:3.88s; animation-duration:5.08s;">#</text>
+    <text x="232.0" y="-1" class="mc" style="opacity:0.10; animation-delay:3.88s; animation-duration:5.08s;">?</text>
+    <text x="232.0" y="12" class="mc" style="opacity:0.05; animation-delay:3.88s; animation-duration:5.08s;">}</text>
+    <text x="248.0" y="-23" class="mc" style="opacity:0.18; animation-delay:1.17s; animation-duration:2.97s;">F</text>
+    <text x="248.0" y="-10" class="mc" style="opacity:0.10; animation-delay:1.17s; animation-duration:2.97s;">[</text>
+    <text x="248.0" y="3" class="mc" style="opacity:0.05; animation-delay:1.17s; animation-duration:2.97s;">3</text>
+    <text x="248.0" y="16" class="mc" style="opacity:0.05; animation-delay:1.17s; animation-duration:2.97s;">7</text>
+    <text x="264.0" y="-24" class="mc" style="opacity:0.33; animation-delay:3.48s; animation-duration:3.4s;">2</text>
+    <text x="264.0" y="-11" class="mc" style="opacity:0.25; animation-delay:3.48s; animation-duration:3.4s;">{</text>
+    <text x="264.0" y="2" class="mc" style="opacity:0.17; animation-delay:3.48s; animation-duration:3.4s;">d</text>
+    <text x="264.0" y="15" class="mc" style="opacity:0.09; animation-delay:3.48s; animation-duration:3.4s;">{</text>
+    <text x="280.0" y="4" class="mc" style="opacity:0.40; animation-delay:3.81s; animation-duration:5.27s;">e</text>
+    <text x="280.0" y="17" class="mc" style="opacity:0.32; animation-delay:3.81s; animation-duration:5.27s;">b</text>
+    <text x="280.0" y="30" class="mc" style="opacity:0.24; animation-delay:3.81s; animation-duration:5.27s;">9</text>
+    <text x="280.0" y="43" class="mc" style="opacity:0.16; animation-delay:3.81s; animation-duration:5.27s;">c</text>
+    <text x="296.0" y="-7" class="mc" style="opacity:0.25; animation-delay:3.51s; animation-duration:4.99s;">6</text>
+    <text x="296.0" y="6" class="mc" style="opacity:0.17; animation-delay:3.51s; animation-duration:4.99s;"><</text>
+    <text x="296.0" y="19" class="mc" style="opacity:0.09; animation-delay:3.51s; animation-duration:4.99s;">1</text>
+    <text x="296.0" y="32" class="mc" style="opacity:0.05; animation-delay:3.51s; animation-duration:4.99s;">F</text>
+    <text x="312.0" y="-25" class="mc" style="opacity:0.41; animation-delay:2.93s; animation-duration:4.95s;">1</text>
+    <text x="312.0" y="-12" class="mc" style="opacity:0.33; animation-delay:2.93s; animation-duration:4.95s;">D</text>
+    <text x="328.0" y="-20" class="mc" style="opacity:0.28; animation-delay:1.06s; animation-duration:5.12s;">a</text>
+    <text x="328.0" y="-7" class="mc" style="opacity:0.20; animation-delay:1.06s; animation-duration:5.12s;">a</text>
+    <text x="328.0" y="6" class="mc" style="opacity:0.12; animation-delay:1.06s; animation-duration:5.12s;">></text>
+    <text x="328.0" y="19" class="mc" style="opacity:0.05; animation-delay:1.06s; animation-duration:5.12s;">]</text>
+    <text x="344.0" y="-11" class="mc" style="opacity:0.27; animation-delay:1.6s; animation-duration:4.52s;">[</text>
+    <text x="344.0" y="2" class="mc" style="opacity:0.19; animation-delay:1.6s; animation-duration:4.52s;">e</text>
+    <text x="360.0" y="-26" class="mc" style="opacity:0.24; animation-delay:1.35s; animation-duration:4.26s;">!</text>
+    <text x="360.0" y="-13" class="mc" style="opacity:0.16; animation-delay:1.35s; animation-duration:4.26s;">F</text>
+    <text x="360.0" y="0" class="mc" style="opacity:0.08; animation-delay:1.35s; animation-duration:4.26s;">1</text>
+    <text x="360.0" y="13" class="mc" style="opacity:0.05; animation-delay:1.35s; animation-duration:4.26s;">0</text>
+    <text x="376.0" y="10" class="mc" style="opacity:0.19; animation-delay:0.24s; animation-duration:2.7s;">0</text>
+    <text x="376.0" y="23" class="mc" style="opacity:0.11; animation-delay:0.24s; animation-duration:2.7s;">C</text>
+    <text x="392.0" y="-13" class="mc" style="opacity:0.21; animation-delay:2.68s; animation-duration:3.14s;">C</text>
+    <text x="392.0" y="0" class="mc" style="opacity:0.13; animation-delay:2.68s; animation-duration:3.14s;">{</text>
+    <text x="392.0" y="13" class="mc" style="opacity:0.05; animation-delay:2.68s; animation-duration:3.14s;">1</text>
+    <text x="408.0" y="-18" class="mc" style="opacity:0.27; animation-delay:0.38s; animation-duration:4.48s;">></text>
+    <text x="408.0" y="-5" class="mc" style="opacity:0.19; animation-delay:0.38s; animation-duration:4.48s;">1</text>
+    <text x="408.0" y="8" class="mc" style="opacity:0.11; animation-delay:0.38s; animation-duration:4.48s;">></text>
+    <text x="408.0" y="21" class="mc" style="opacity:0.05; animation-delay:0.38s; animation-duration:4.48s;">%</text>
+    <text x="424.0" y="-27" class="mc" style="opacity:0.39; animation-delay:1.61s; animation-duration:3.52s;">?</text>
+    <text x="424.0" y="-14" class="mc" style="opacity:0.31; animation-delay:1.61s; animation-duration:3.52s;">B</text>
+    <text x="424.0" y="-1" class="mc" style="opacity:0.23; animation-delay:1.61s; animation-duration:3.52s;">E</text>
+    <text x="440.0" y="4" class="mc" style="opacity:0.25; animation-delay:1.79s; animation-duration:3.77s;">e</text>
+    <text x="440.0" y="17" class="mc" style="opacity:0.17; animation-delay:1.79s; animation-duration:3.77s;">e</text>
+    <text x="456.0" y="5" class="mc" style="opacity:0.31; animation-delay:0.39s; animation-duration:4.46s;">C</text>
+    <text x="456.0" y="18" class="mc" style="opacity:0.23; animation-delay:0.39s; animation-duration:4.46s;">!</text>
+    <text x="472.0" y="-20" class="mc" style="opacity:0.39; animation-delay:1.63s; animation-duration:3.94s;">D</text>
+    <text x="472.0" y="-7" class="mc" style="opacity:0.31; animation-delay:1.63s; animation-duration:3.94s;">1</text>
+    <text x="488.0" y="-30" class="mc" style="opacity:0.37; animation-delay:3.94s; animation-duration:3.3s;">c</text>
+    <text x="488.0" y="-17" class="mc" style="opacity:0.29; animation-delay:3.94s; animation-duration:3.3s;">#</text>
+    <text x="504.0" y="1" class="mc" style="opacity:0.41; animation-delay:0.62s; animation-duration:3.39s;">4</text>
+    <text x="504.0" y="14" class="mc" style="opacity:0.33; animation-delay:0.62s; animation-duration:3.39s;">@</text>
+    <text x="504.0" y="27" class="mc" style="opacity:0.25; animation-delay:0.62s; animation-duration:3.39s;">]</text>
+    <text x="520.0" y="-27" class="mc" style="opacity:0.38; animation-delay:2.34s; animation-duration:4.01s;">[</text>
+    <text x="520.0" y="-14" class="mc" style="opacity:0.30; animation-delay:2.34s; animation-duration:4.01s;">B</text>
+    <text x="520.0" y="-1" class="mc" style="opacity:0.22; animation-delay:2.34s; animation-duration:4.01s;">6</text>
+    <text x="520.0" y="12" class="mc" style="opacity:0.14; animation-delay:2.34s; animation-duration:4.01s;">B</text>
+    <text x="536.0" y="-25" class="mc" style="opacity:0.20; animation-delay:3.41s; animation-duration:2.71s;">B</text>
+    <text x="536.0" y="-12" class="mc" style="opacity:0.12; animation-delay:3.41s; animation-duration:2.71s;">{</text>
+    <text x="552.0" y="6" class="mc" style="opacity:0.33; animation-delay:0.98s; animation-duration:4.28s;">$</text>
+    <text x="552.0" y="19" class="mc" style="opacity:0.25; animation-delay:0.98s; animation-duration:4.28s;">F</text>
+    <text x="568.0" y="-17" class="mc" style="opacity:0.24; animation-delay:2.68s; animation-duration:3.44s;">}</text>
+    <text x="568.0" y="-4" class="mc" style="opacity:0.16; animation-delay:2.68s; animation-duration:3.44s;">6</text>
+    <text x="568.0" y="9" class="mc" style="opacity:0.08; animation-delay:2.68s; animation-duration:3.44s;">2</text>
+    <text x="584.0" y="-10" class="mc" style="opacity:0.18; animation-delay:3.72s; animation-duration:5.31s;">5</text>
+    <text x="584.0" y="3" class="mc" style="opacity:0.10; animation-delay:3.72s; animation-duration:5.31s;">?</text>
+    <text x="600.0" y="2" class="mc" style="opacity:0.39; animation-delay:1.06s; animation-duration:5.3s;">E</text>
+    <text x="600.0" y="15" class="mc" style="opacity:0.31; animation-delay:1.06s; animation-duration:5.3s;">C</text>
+    <text x="600.0" y="28" class="mc" style="opacity:0.23; animation-delay:1.06s; animation-duration:5.3s;">[</text>
+    <text x="600.0" y="41" class="mc" style="opacity:0.15; animation-delay:1.06s; animation-duration:5.3s;">f</text>
+    <text x="616.0" y="-20" class="mc" style="opacity:0.25; animation-delay:1.75s; animation-duration:4.13s;">9</text>
+    <text x="616.0" y="-7" class="mc" style="opacity:0.17; animation-delay:1.75s; animation-duration:4.13s;">4</text>
+    <text x="632.0" y="-24" class="mc" style="opacity:0.21; animation-delay:3.76s; animation-duration:2.9s;">}</text>
+    <text x="632.0" y="-11" class="mc" style="opacity:0.13; animation-delay:3.76s; animation-duration:2.9s;">0</text>
+    <text x="632.0" y="2" class="mc" style="opacity:0.05; animation-delay:3.76s; animation-duration:2.9s;">]</text>
+    <text x="632.0" y="15" class="mc" style="opacity:0.05; animation-delay:3.76s; animation-duration:2.9s;">5</text>
+    <text x="648.0" y="-13" class="mc" style="opacity:0.26; animation-delay:1.13s; animation-duration:3.13s;">]</text>
+    <text x="648.0" y="0" class="mc" style="opacity:0.18; animation-delay:1.13s; animation-duration:3.13s;">b</text>
+    <text x="664.0" y="-27" class="mc" style="opacity:0.25; animation-delay:0.37s; animation-duration:3.77s;">2</text>
+    <text x="664.0" y="-14" class="mc" style="opacity:0.17; animation-delay:0.37s; animation-duration:3.77s;">{</text>
+    <text x="664.0" y="-1" class="mc" style="opacity:0.09; animation-delay:0.37s; animation-duration:3.77s;"><</text>
+    <text x="664.0" y="12" class="mc" style="opacity:0.05; animation-delay:0.37s; animation-duration:3.77s;">2</text>
+    <text x="680.0" y="10" class="mc" style="opacity:0.29; animation-delay:3.92s; animation-duration:2.98s;">7</text>
+    <text x="680.0" y="23" class="mc" style="opacity:0.21; animation-delay:3.92s; animation-duration:2.98s;">a</text>
+    <text x="696.0" y="-26" class="mc" style="opacity:0.22; animation-delay:3.78s; animation-duration:4.57s;">@</text>
+    <text x="696.0" y="-13" class="mc" style="opacity:0.14; animation-delay:3.78s; animation-duration:4.57s;">]</text>
+    <text x="696.0" y="0" class="mc" style="opacity:0.06; animation-delay:3.78s; animation-duration:4.57s;">0</text>
+    <text x="696.0" y="13" class="mc" style="opacity:0.05; animation-delay:3.78s; animation-duration:4.57s;">F</text>
+    <text x="712.0" y="-21" class="mc" style="opacity:0.27; animation-delay:1.72s; animation-duration:2.63s;">9</text>
+    <text x="712.0" y="-8" class="mc" style="opacity:0.19; animation-delay:1.72s; animation-duration:2.63s;">]</text>
+    <text x="728.0" y="-15" class="mc" style="opacity:0.31; animation-delay:2.67s; animation-duration:3.56s;">8</text>
+    <text x="728.0" y="-2" class="mc" style="opacity:0.23; animation-delay:2.67s; animation-duration:3.56s;">f</text>
+    <text x="744.0" y="-19" class="mc" style="opacity:0.36; animation-delay:3.53s; animation-duration:2.57s;">b</text>
+    <text x="744.0" y="-6" class="mc" style="opacity:0.28; animation-delay:3.53s; animation-duration:2.57s;">1</text>
+    <text x="744.0" y="7" class="mc" style="opacity:0.20; animation-delay:3.53s; animation-duration:2.57s;">c</text>
+    <text x="760.0" y="-20" class="mc" style="opacity:0.39; animation-delay:3.15s; animation-duration:2.82s;">%</text>
+    <text x="760.0" y="-7" class="mc" style="opacity:0.31; animation-delay:3.15s; animation-duration:2.82s;">1</text>
+    <text x="760.0" y="6" class="mc" style="opacity:0.23; animation-delay:3.15s; animation-duration:2.82s;">3</text>
+    <text x="776.0" y="-8" class="mc" style="opacity:0.23; animation-delay:1.22s; animation-duration:4.89s;">0</text>
+    <text x="776.0" y="5" class="mc" style="opacity:0.15; animation-delay:1.22s; animation-duration:4.89s;">e</text>
+    <text x="776.0" y="18" class="mc" style="opacity:0.07; animation-delay:1.22s; animation-duration:4.89s;">?</text>
+    <text x="792.0" y="-9" class="mc" style="opacity:0.37; animation-delay:1.11s; animation-duration:2.71s;">e</text>
+    <text x="792.0" y="4" class="mc" style="opacity:0.29; animation-delay:1.11s; animation-duration:2.71s;">$</text>
+    <text x="808.0" y="-9" class="mc" style="opacity:0.41; animation-delay:3.76s; animation-duration:2.85s;">{</text>
+    <text x="808.0" y="4" class="mc" style="opacity:0.33; animation-delay:3.76s; animation-duration:2.85s;">$</text>
+    <text x="808.0" y="17" class="mc" style="opacity:0.25; animation-delay:3.76s; animation-duration:2.85s;">[</text>
+    <text x="824.0" y="-24" class="mc" style="opacity:0.37; animation-delay:2.39s; animation-duration:3.54s;">2</text>
+    <text x="824.0" y="-11" class="mc" style="opacity:0.29; animation-delay:2.39s; animation-duration:3.54s;">A</text>
+    <text x="840.0" y="6" class="mc" style="opacity:0.28; animation-delay:0.76s; animation-duration:2.63s;">{</text>
+    <text x="840.0" y="19" class="mc" style="opacity:0.20; animation-delay:0.76s; animation-duration:2.63s;">F</text>
+    <text x="840.0" y="32" class="mc" style="opacity:0.12; animation-delay:0.76s; animation-duration:2.63s;">#</text>
+    <text x="856.0" y="-26" class="mc" style="opacity:0.33; animation-delay:3.8s; animation-duration:5.26s;">[</text>
+    <text x="856.0" y="-13" class="mc" style="opacity:0.25; animation-delay:3.8s; animation-duration:5.26s;">e</text>
+    <text x="856.0" y="0" class="mc" style="opacity:0.17; animation-delay:3.8s; animation-duration:5.26s;">9</text>
+    <text x="856.0" y="13" class="mc" style="opacity:0.09; animation-delay:3.8s; animation-duration:5.26s;">@</text>
+    <text x="872.0" y="-4" class="mc" style="opacity:0.31; animation-delay:1.3s; animation-duration:4.59s;">F</text>
+    <text x="872.0" y="9" class="mc" style="opacity:0.23; animation-delay:1.3s; animation-duration:4.59s;">5</text>
+    <text x="872.0" y="22" class="mc" style="opacity:0.15; animation-delay:1.3s; animation-duration:4.59s;">{</text>
+    <text x="872.0" y="35" class="mc" style="opacity:0.07; animation-delay:1.3s; animation-duration:4.59s;">5</text>
+  </g>
+</svg>
