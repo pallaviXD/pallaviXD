@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 490" width="380" height="490">
+  <defs>
+    <linearGradient id="aviBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#161b22" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .terminal-bg {
+      fill: url(#aviBgGrad);
+      stroke: #30363d;
+      stroke-width: 1;
+      rx: 8px;
+    }
+    .term-prompt {
+      font-family: "Fira Code", "Courier New", monospace;
+      font-size: 11.5px;
+      font-weight: 600;
+    }
+    
+    /* Typewriter row-by-row wipe animation (runs once, freezes) */
+    @keyframes typeWipe {
+      0% {
+        opacity: 0;
+        transform: translateY(2px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .ascii-row {
+      font-family: "Fira Code", "SFMono-Regular", Consolas, "Courier New", monospace;
+      font-size: 8.5px;
+      letter-spacing: 1.4px;
+      fill: #c9d1d9;
+      opacity: 0;
+      animation: typeWipe 0.08s ease-out forwards;
+      will-change: opacity, transform;
+    }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="0.5" y="0.5" width="379" height="489" rx="8" class="terminal-bg" />
+
+  <!-- Terminal Window Top Bar -->
+  <path d="M 0.5 8 A 7.5 7.5 0 0 1 8 0.5 L 372 0.5 A 7.5 7.5 0 0 1 379.5 8 L 379.5 32 L 0.5 32 Z" fill="#161b22" stroke="#30363d" stroke-width="1" />
+
+  <!-- Window Control Buttons -->
+  <circle cx="18" cy="16" r="5" fill="#ff5f56" />
+  <circle cx="34" cy="16" r="5" fill="#ffbd2e" />
+  <circle cx="50" cy="16" r="5" fill="#27c93f" />
+
+  <!-- Terminal Prompt Command -->
+  <text x="72" y="20" class="term-prompt">
+    <tspan fill="#39d353">pallavi@DESKTOP</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#58a6ff">~</tspan><tspan fill="#e6edf3">$ cat avatar.txt</tspan>
+  </text>
+
+  <!-- ASCII Lines -->
+  <g id="ascii-art">
+    <text x="190.0" y="59.8" text-anchor="middle" class="ascii-row" style="animation-delay: 0ms;" xml:space="preserve">                          }pwLzxftfjc0qpwpdCr+        <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.000s" fill="freeze" /></text><text x="190.0" y="71.6" text-anchor="middle" class="ascii-row" style="animation-delay: 28ms;" xml:space="preserve">                         |*k0Yujt\t\/nQbddh0rt[       <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.028s" fill="freeze" /></text><text x="190.0" y="83.4" text-anchor="middle" class="ascii-row" style="animation-delay: 56ms;" xml:space="preserve">                        ?abJcxf\)11}[}tJQYJcn\f,      <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.056s" fill="freeze" /></text><text x="190.0" y="95.3" text-anchor="middle" class="ascii-row" style="animation-delay: 84ms;" xml:space="preserve">                       :0bXxj/({[]-+~_{cOvcnxf/)      <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.084s" fill="freeze" /></text><text x="190.0" y="107.1" text-anchor="middle" class="ascii-row" style="animation-delay: 112ms;" xml:space="preserve">                       |kQUcrt|{]]_&lt;i!_tZXcxjt1rl     <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.112s" fill="freeze" /></text><text x="190.0" y="118.9" text-anchor="middle" class="ascii-row" style="animation-delay: 140ms;" xml:space="preserve">                      :mwcLmZQv|1tjt|)[/QCcxr/1r}     <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.140s" fill="freeze" /></text><text x="190.0" y="130.8" text-anchor="middle" class="ascii-row" style="animation-delay: 168ms;" xml:space="preserve">                      (Mx)uX0Lv){jzXYLL0pQXvzt\xj.    <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.168s" fill="freeze" /></text><text x="190.0" y="142.6" text-anchor="middle" class="ascii-row" style="animation-delay: 196ms;" xml:space="preserve">                     `0hrJUoahn&lt;_/zJcfrQkZJXYjfxv&quot;    <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.196s" fill="freeze" /></text><text x="190.0" y="154.5" text-anchor="middle" class="ascii-row" style="animation-delay: 224ms;" xml:space="preserve">                     ?acnYXkoZ]I~/pOwdmwkqYYXnvvz?    <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.224s" fill="freeze" /></text><text x="190.0" y="166.3" text-anchor="middle" class="ascii-row" style="animation-delay: 252ms;" xml:space="preserve">                     vC)/jvXJt~&gt;i-XLmoa*MqzzvjYCvr.   <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.252s" fill="freeze" /></text><text x="190.0" y="178.1" text-anchor="middle" class="ascii-row" style="animation-delay: 280ms;" xml:space="preserve">                    &quot;0r\ttfxx]&lt;&lt;&lt;&lt;?tvXCLkkUxntfQXc&#x27;   <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.280s" fill="freeze" /></text><text x="190.0" y="190.0" text-anchor="middle" class="ascii-row" style="animation-delay: 308ms;" xml:space="preserve">                    +w/|\fzZQcC\_}[[}1(xvmmvft\c0X^   <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.308s" fill="freeze" /></text><text x="190.0" y="201.8" text-anchor="middle" class="ascii-row" style="animation-delay: 336ms;" xml:space="preserve">                    \d|1|rJZQcJL(11}[1)jxum0r{)\UC^   <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.336s" fill="freeze" /></text><text x="190.0" y="213.6" text-anchor="middle" class="ascii-row" style="animation-delay: 364ms;" xml:space="preserve">                   &quot;Lw){\v0wOJ)+--?][{|truCbZu|{xQ^   <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.364s" fill="freeze" /></text><text x="190.0" y="225.5" text-anchor="middle" class="ascii-row" style="animation-delay: 392ms;" xml:space="preserve">                   !mm1}fZqmwwpc1]+-[{{\jzQmwpdJUL^   <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.392s" fill="freeze" /></text><text x="190.0" y="237.3" text-anchor="middle" class="ascii-row" style="animation-delay: 420ms;" xml:space="preserve">                   &gt;mb\[|xJ0LYXQ0f[]{))|rzO0XJpbdU`   <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.420s" fill="freeze" /></text><text x="190.0" y="249.2" text-anchor="middle" class="ascii-row" style="animation-delay: 448ms;" xml:space="preserve">                   [dkC[11tcXn(-1|]?}{}(jUXUZm0pdu&#x27;   <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.448s" fill="freeze" /></text><text x="190.0" y="261.0" text-anchor="middle" class="ascii-row" style="animation-delay: 476ms;" xml:space="preserve">                   xkd*v}11{]+&gt;&lt;+?--?]}fQapqddwwOr`   <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.476s" fill="freeze" /></text><text x="190.0" y="272.8" text-anchor="middle" class="ascii-row" style="animation-delay: 504ms;" xml:space="preserve">                  imhda*Y\||{&lt;ll&gt;+-]}/cqMo**hkk0Jr^   <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.504s" fill="freeze" /></text><text x="190.0" y="284.7" text-anchor="middle" class="ascii-row" style="animation-delay: 532ms;" xml:space="preserve">                  udahkaMdQUvf|)/jxvXC0**oahhaqLJn^   <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.532s" fill="freeze" /></text><text x="190.0" y="296.5" text-anchor="middle" class="ascii-row" style="animation-delay: 560ms;" xml:space="preserve">               . [qphabha#*abwOLJYzcnuO#oaahkqC0ZX^   <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.560s" fill="freeze" /></text><text x="190.0" y="308.4" text-anchor="middle" class="ascii-row" style="animation-delay: 588ms;" xml:space="preserve">                &gt;mdpkohhaohdqmCut|()|xZW#oahpQwwpJ^   <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.588s" fill="freeze" /></text><text x="190.0" y="320.2" text-anchor="middle" class="ascii-row" style="animation-delay: 616ms;" xml:space="preserve">            &quot;i-}Odbddh*hhab0UYut(){{(xZ##ohbqqdqdC^   <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.616s" fill="freeze" /></text><text x="190.0" y="332.0" text-anchor="middle" class="ascii-row" style="animation-delay: 644ms;" xml:space="preserve">         `~xCqoobbhdwkakqdbOXnj\()1)tzZa*hdwmpbdpL&quot;   <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.644s" fill="freeze" /></text><text x="190.0" y="343.9" text-anchor="middle" class="ascii-row" style="animation-delay: 672ms;" xml:space="preserve">        _\0ZmmwdkhadphhZLLO0uvxf//\txYp**abqdkbpOJ&quot;   <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.672s" fill="freeze" /></text><text x="190.0" y="355.7" text-anchor="middle" class="ascii-row" style="animation-delay: 700ms;" xml:space="preserve">       &gt;vtCuJmmqkbhhaodUcuxc|\tt/|\fu0mUzYw*#bpOUx^   <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.700s" fill="freeze" /></text><text x="190.0" y="367.5" text-anchor="middle" class="ascii-row" style="animation-delay: 728ms;" xml:space="preserve">      &lt;fjnOUQqmppwhao*wQzntt/\ff/()|\n}}tXxuXYUXXn&quot;   <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.728s" fill="freeze" /></text><text x="190.0" y="379.4" text-anchor="middle" class="ascii-row" style="animation-delay: 756ms;" xml:space="preserve">     !L|)xz0Zqqmmpbho*bwLufffftt\(\)vj[(YZc|1|\txn^   <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.756s" fill="freeze" /></text><text x="190.0" y="391.2" text-anchor="middle" class="ascii-row" style="animation-delay: 784ms;" xml:space="preserve">    &#x27;zz)xnXwwhbwpbpkoohdZvfjftt/\t/zYuvvuLZn)&lt;&gt;[/r&quot;   <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.784s" fill="freeze" /></text><text x="190.0" y="403.1" text-anchor="middle" class="ascii-row" style="animation-delay: 812ms;" xml:space="preserve">   .rv|fvUwhdqkdhwZdaoakwvffttffjrLc-[\UJUwUf&gt;!~1X;   <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.812s" fill="freeze" /></text><text x="190.0" y="414.9" text-anchor="middle" class="ascii-row" style="animation-delay: 840ms;" xml:space="preserve">   ~Oj\fnQdhmqhbbqwpaaahLx/\\tjrvQx[]]1/nc00v{&lt;l!]&quot;   <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.840s" fill="freeze" /></text><text x="190.0" y="426.7" text-anchor="middle" class="ascii-row" style="animation-delay: 868ms;" xml:space="preserve">   ]pf1jYmbkZqopbdqqkhoqt)t1|fvULu{}1(junjvCCxj{~~^   <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.868s" fill="freeze" /></text><text x="190.0" y="438.6" text-anchor="middle" class="ascii-row" style="animation-delay: 896ms;" xml:space="preserve">   )bnJOCdoZzdhOkkpmmhd|?}\/xXJc(--?/jvXn/)XQUULJx^   <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.896s" fill="freeze" /></text><text x="190.0" y="450.4" text-anchor="middle" class="ascii-row" style="animation-delay: 924ms;" xml:space="preserve">   }JXQwCqozukoZkhmC0mu&lt;_}|zY0C([}[)fuvJr[}cCmjfaw&quot;   <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.924s" fill="freeze" /></text><text x="190.0" y="462.2" text-anchor="middle" class="ascii-row" style="animation-delay: 952ms;" xml:space="preserve">   &lt;Ut{cqphrukadwkOJCv|~&gt;?tCZmOv|1})ft\/{]}xUm01Qw^   <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.952s" fill="freeze" /></text><text x="190.0" y="474.1" text-anchor="middle" class="ascii-row" style="animation-delay: 980ms;" xml:space="preserve">   ~Yc//OMdtnkhk0pZOXt{+i&lt;\LbUXYvnr|(|}+[?[xJCX(|c^   <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.980s" fill="freeze" /></text>
+  </g>
+</svg>

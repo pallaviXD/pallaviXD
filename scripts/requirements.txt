@@ -1,0 +1,16 @@
+# ==============================================================================
+# GitHub Actions Daily CI Dependencies
+# Lightweight packages required for scraping contributions & rendering the SVG
+# ==============================================================================
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+
+# ==============================================================================
+# Local Portrait & ASCII Generation Dependencies
+# Used once (or whenever changing the avatar) to remove background & render ASCII
+# ==============================================================================
+pillow>=10.0.0
+numpy>=1.24.0
+opencv-python-headless>=4.8.0
+rembg>=2.0.50
+onnxruntime>=1.16.0
