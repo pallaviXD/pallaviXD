@@ -9,9 +9,11 @@ Staggered fade/slide-in per field line, prints once and freezes.
 import os
 
 SVG_W = 880
-SVG_H = 240
+SVG_H = 246
 TOP_BAR = 32
-STAGGER = 160  # ms between each line
+START_Y = 80
+LINE_H = 22
+STAGGER = 150  # ms between each line
 
 OK_COLOR   = "#3fb950"
 KEY_COLOR  = "#e3b341"
@@ -35,8 +37,8 @@ FIELDS = [
 PALETTE = ["#21262d","#ff7b72","#3fb950","#d29922","#58a6ff","#bc8cff","#39c5cf","#f0f6fc"]
 
 def make_field_line(idx: int, key: str, value_parts) -> str:
-    y = TOP_BAR + 28 + idx * 26
-    delay = idx * STAGGER
+    y = START_Y + idx * LINE_H
+    delay = (idx + 1) * STAGGER
 
     # If value_parts is a plain string, wrap it
     if isinstance(value_parts, str):
@@ -66,23 +68,20 @@ def generate() -> str:
     field_lines = [make_field_line(i, k, v) for i, (k, v) in enumerate(FIELDS)]
 
     # Color palette row
-    palette_y = TOP_BAR + 28 + len(FIELDS) * 26 + 4
-    palette_delay = len(FIELDS) * STAGGER
+    palette_y = START_Y + len(FIELDS) * LINE_H + 8
+    palette_delay = (len(FIELDS) + 1) * STAGGER
     pal_rects = []
     for j, c in enumerate(PALETTE):
         rx = 24 + j * 24
-        pal_rects.append(f'<rect x="{rx}" y="{palette_y - 10}" width="18" height="10" rx="2" fill="{c}"/>')
+        pal_rects.append(f'<rect x="{rx}" y="{palette_y + 6}" width="18" height="10" rx="2" fill="{c}"/>')
     pal_group = (
-        f'  <g opacity="0" style="animation-delay:{palette_delay}ms;" class="info-line">'
-        f'\n    <text x="24" y="{palette_y - 14}" fill="{DIM_COLOR}" font-size="9px" '
+        f'  <g style="animation-delay:{palette_delay}ms;" class="info-line">'
+        f'\n    <text x="24" y="{palette_y}" fill="{DIM_COLOR}" font-size="9px" '
         f'font-family="\'Fira Code\',monospace">SYSTEM PALETTE</text>'
         f'\n    {"".join(pal_rects)}'
         f'\n    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="{palette_delay}ms" fill="freeze"/>'
         f'\n  </g>'
     )
-
-    # User header: pallavi@DESKTOP
-    header_delay = 0
 
     fields_svg = "\n".join(field_lines)
 
@@ -95,20 +94,24 @@ def generate() -> str:
   </defs>
   <style>
     @keyframes slideFade {{
-      0%   {{ opacity: 0; transform: translateY(5px); }}
+      0%   {{ opacity: 0; transform: translateY(4px); }}
       100% {{ opacity: 1; transform: translateY(0); }}
     }}
     .info-line {{
       font-family: "Fira Code", "SFMono-Regular", Consolas, "Courier New", monospace;
       font-size: 12px;
-      opacity: 0;
-      animation: slideFade 0.35s cubic-bezier(0.16,1,0.3,1) forwards;
-      will-change: opacity, transform;
+      animation: slideFade 0.35s cubic-bezier(0.16,1,0.3,1) both;
     }}
     .term-prompt {{
       font-family: "Fira Code", "Courier New", monospace;
       font-size: 11.5px;
       font-weight: 600;
+    }}
+    @media (prefers-reduced-motion: reduce) {{
+      .info-line {{
+        animation: none !important;
+        opacity: 1 !important;
+      }}
     }}
   </style>
 
@@ -127,7 +130,7 @@ def generate() -> str:
   <line x1="0" y1="32" x2="{SVG_W}" y2="32" stroke="#21262d" stroke-width="1"/>
 
   <!-- User identity header -->
-  <text x="24" y="{TOP_BAR + 20}" font-family="\'Fira Code\',monospace" font-size="14px" font-weight="bold" opacity="0"
+  <text x="24" y="56" font-family="\'Fira Code\',monospace" font-size="14px" font-weight="bold"
         style="animation-delay:0ms;" class="info-line">
     <tspan fill="{BLUE_COLOR}">pallavi</tspan><tspan fill="{DIM_COLOR}">@</tspan><tspan fill="{OK_COLOR}">DESKTOP</tspan>
     <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0ms" fill="freeze"/>

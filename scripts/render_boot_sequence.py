@@ -81,17 +81,15 @@ def generate() -> str:
   </defs>
   <style>
     /* Print once and freeze */
-    .boot-line {{
-      font-family: "Fira Code", "SFMono-Regular", Consolas, "Courier New", monospace;
-      font-size: 13px;
-      opacity: 0;
-      animation: bootAppear 0.08s ease forwards;
-      will-change: opacity;
-    }}
-
     @keyframes bootAppear {{
       from {{ opacity: 0; }}
       to   {{ opacity: 1; }}
+    }}
+
+    .boot-line {{
+      font-family: "Fira Code", "SFMono-Regular", Consolas, "Courier New", monospace;
+      font-size: 13px;
+      animation: bootAppear 0.08s ease both;
     }}
 
     /* Blinking cursor blinks after it appears */
@@ -107,6 +105,12 @@ def generate() -> str:
       font-family: "Fira Code", "Courier New", monospace;
       font-size: 11.5px;
       font-weight: 600;
+    }}
+    @media (prefers-reduced-motion: reduce) {{
+      .boot-line, .cursor {{
+        animation: none !important;
+        opacity: 1 !important;
+      }}
     }}
   </style>
 

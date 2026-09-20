@@ -269,9 +269,13 @@ def generate_heatmap_svg(data: dict) -> str:
     }}
 
     .cell {{
-      opacity: 0;
-      animation: diagSlide 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-      will-change: opacity, transform;
+      animation: diagSlide 0.35s cubic-bezier(0.16, 1, 0.3, 1) both;
+    }}
+    @media (prefers-reduced-motion: reduce) {{
+      .cell {{
+        animation: none !important;
+        opacity: 1 !important;
+      }}
     }}
   </style>
 

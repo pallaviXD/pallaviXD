@@ -1,22 +1,31 @@
 <div align="center">
 
 <!-- Matrix rain texture strip -->
-<img src="./assets/matrix-strip.svg" alt="Matrix strip" width="880" />
+<img src="https://raw.githubusercontent.com/pallaviXD/pallaviXD/main/assets/matrix-strip.svg" alt="Matrix strip" width="880" />
 
 <br/>
 
 <!-- Terminal boot sequence -->
-<img src="./assets/boot-sequence.svg" alt="Boot sequence" width="880" />
-
-<br/>
-
-<!-- 53-week animated contribution heatmap -->
-<img src="./contrib-heatmap.svg" alt="GitHub Contributions Heatmap" width="880" />
+<img src="https://raw.githubusercontent.com/pallaviXD/pallaviXD/main/assets/boot-sequence.svg" alt="Boot sequence" width="880" />
 
 <br/>
 
 <!-- Neofetch-style info card -->
-<img src="./assets/info-card.svg" alt="Profile Info Card" width="880" />
+<img src="https://raw.githubusercontent.com/pallaviXD/pallaviXD/main/assets/info-card.svg" alt="Profile Info Card" width="880" />
+
+<br/>
+
+<!-- 53-week animated contribution heatmap -->
+<img src="https://raw.githubusercontent.com/pallaviXD/pallaviXD/main/contrib-heatmap.svg" alt="GitHub Contributions Heatmap" width="880" />
+
+<br/>
+
+<!-- Contribution Grid Snake Animation -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pallaviXD/pallaviXD/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pallaviXD/pallaviXD/output/github-contribution-grid-snake.svg">
+  <img alt="GitHub Contribution Grid Snake Animation" src="https://raw.githubusercontent.com/pallaviXD/pallaviXD/output/github-contribution-grid-snake.svg" width="880" />
+</picture>
 
 </div>
 
