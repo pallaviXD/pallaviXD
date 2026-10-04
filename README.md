@@ -58,7 +58,7 @@ Final-year Information Science and Engineering student at RNSIT Bengaluru (CGPA 
 
 ### 03 / HIGHLIGHTS
 
-- **SIH 2026 Grand Finalist** / Top 50 of 3500+ teams nationwide. Built SENTRA, an AI real-time UPI fraud detection system.
+- ** DECODE SIH 2026 Grand Finalist** / Top 50 of 3500+ teams nationwide. Built SENTRA, an AI real-time UPI fraud detection system.
 - **HACKHAZARDS 26 Top 100 and Luminix 26 Runner-Up.** Built UnifyTalk, an AI multimodal accessibility platform for deaf, mute, and blind users.
 
 <br/>
